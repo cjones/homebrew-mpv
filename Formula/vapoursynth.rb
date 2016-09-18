@@ -2,7 +2,7 @@ require "formula"
 
 class Vapoursynth < Formula
   url  'https://github.com/vapoursynth/vapoursynth/archive/R27.tar.gz'
-  sha1 '95bd29dc69b2604b73f4caa21c74a1bc564622f9'
+  sha256 '3af82faf8c085ff25b2ad87c2d7e56d31247227d0b291de7769362ac6629b43d'
   homepage "http://www.vapoursynth.com"
   head "https://github.com/vapoursynth/vapoursynth.git"
 
@@ -21,7 +21,7 @@ class Vapoursynth < Formula
   resource 'cython' do
     url 'https://pypi.python.org/packages/source/C/Cython/Cython-0.21.2.tar.gz'
     md5 'd21adb870c75680dc857cd05d41046a4'
-    sha1 'c3fe3dd5693aa09719ee4a3bcec898068c82592d'
+    sha1 'b01af23102143515e6138a4d5e185c2cfa588e0df61c0827de4257bac3393679'
   end
 
   def install
