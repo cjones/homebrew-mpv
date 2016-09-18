@@ -20,8 +20,7 @@ class Vapoursynth < Formula
 
   resource 'cython' do
     url 'https://pypi.python.org/packages/source/C/Cython/Cython-0.21.2.tar.gz'
-    md5 'd21adb870c75680dc857cd05d41046a4'
-    sha1 'b01af23102143515e6138a4d5e185c2cfa588e0df61c0827de4257bac3393679'
+    sha256 'b01af23102143515e6138a4d5e185c2cfa588e0df61c0827de4257bac3393679'
   end
 
   def install
